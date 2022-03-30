@@ -1,5 +1,54 @@
 
 /*MENU*/
+.menuBar {
+    display: inline-flex;
+    align-items: center;
+}
+
+.menuBar img {
+    width: 100px;
+    height: 42%;
+    margin: 10px;
+}
+
+ol {
+    display: inline-flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+li {
+    padding-right: 1.2em;
+}
+
+nav a {
+    font-family: 'Jost', sans-serif;
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav {
+    display: inline-flex;
+    width: 100%;
+    align-content: center;
+    background-color: rgb(248, 248, 248);
+}
+
+li {
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+.iconos{
+    color:#F3A124;
+    padding-right: 11px;
+}
+
+
+
 .navbar {
     display: inline-flex;
     border-bottom: 1px solid #000000; 
@@ -39,7 +88,14 @@
 .menu_underline:hover{
 text-decoration: underline;
 border-bottom: 3px solid #F3A124;
+}
 
+.menu_underline{
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
 }
 
 
@@ -143,6 +199,132 @@ background-image: url('/img/alo.JPG');
         background-size: cover;
     }
 
-
+    .row {
+        padding-left: 12em;
+    }
+    
+    .column {
+        float: left;
+        width: 33.33%;
+        font-family: 'Jost', sans-serif;
+    
+    }
+    
+    .column a {
+        text-decoration: none;
+        color:#000000;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .column {
+        float: left;
+    }
+    
+    .left,
+    .right {
+        width: 25%;
+    }
+    
+    .middle {
+        width: 50%;
+    }
+    
+    @media screen and (max-width: 600px) {
+        .column {
+            width: 100%;
+        }
+    }
+    
+    .newsletter {
+        text-align: center;
+        font-family: 'Jost', sans-serif;
+    }
+    
+    .boton {
+        font-family: 'Jost', sans-serif;
+        width: 7%;
+        height: 39px;
+        background-color: orange;
+        color: white;
+        border: 0px;
+    }
+    
+    .mail {
+        font-family: 'Jost', sans-serif;
+        width: 12%;
+        height: 34px;
+        border-color: orange;
+        border-width: 2px;
+        border-style: solid;
+        padding-left: 10px;
+    }
+    
+    /* Bajo del footer*/
+    .bajo {
+    
+        background-color: black;
+    }
+    
+    .primer {
+        width: 25%;
+        font-family: 'Jost', sans-serif;
+        float: left;
+        display: inline-flex;
+        justify-content: flex-end;
+     
+        
+    
+    }
+    
+    .primer a {
+        text-decoration: none;
+    color: white;
+    font-size: 12px;
+    }
+    
+    .redes {
+        width: 50%;
+        font-family: 'Jost', sans-serif;
+        float: left;
+        display: inline-flex;
+        justify-content: center;
+        padding-top: 18px;
+    }
+     
+    
+    .redes a {
+        text-decoration: none;
+    }
+    
+    .tercer {
+      
+        width: 25%;
+        font-family: 'Jost', sans-serif;
+        float: left;
+         color: white;
+        font-size: 12px;
+        padding-top: 12px;
+        display: inline-flex;
+        align-items: center;
+    
+    }
+    
+    .tercer a {
+        text-decoration: none;
+       
+    }
+    
+    /* Clear floats after the columns */
+    .bajo:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
 
   
