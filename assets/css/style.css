@@ -137,6 +137,15 @@ background-image: url('/img/alo.JPG');
     
     }
 
+
+
+    #formulario{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background-color: aqua;
+        color: black;   
+     }
+     
     .button{
         background: #ff000000;
         color: #a5cd07;
