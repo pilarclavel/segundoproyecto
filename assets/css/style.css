@@ -114,6 +114,8 @@ hr {
         left: 50%;
       
         transform: translate(-50%, -50%);
+  /*IMPORTANTE*/
+ 
     }
     .foto-conocenos {
 background-size: cover;
