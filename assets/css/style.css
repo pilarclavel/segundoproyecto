@@ -244,6 +244,7 @@ background-image: url('/img/alo.JPG');
     .newsletter {
         text-align: center;
         font-family: 'Jost', sans-serif;
+        border-top: 1px solid #000000
     }
     
     .boton {
