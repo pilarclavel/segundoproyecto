@@ -1,12 +1,13 @@
 
+/*MENU*/
 .navbar {
     display: inline-flex;
+    border-bottom: 1px solid #000000; 
 }
 
 .navbar-logo {
     display: inline-flex;
     align-items: center;
-
 }
 
 .menuheader {
@@ -21,12 +22,11 @@
 }
 
 .menu {
-
     color: rgba(0, 0, 0, 1);
     position: inherit;
 
     font-family: 'Jost', sans-serif;
-    font-weight: SemiBold;
+    font-weight: bold;
     font-size: 20px;
     opacity: 1;
     text-align: center;
@@ -36,6 +36,12 @@
     justify-content: center;
     align-content: center;
 }
+.menu_underline:hover{
+text-decoration: underline;
+border-bottom: 3px solid #F3A124;
+
+}
+
 
 .menu a {
     text-decoration: none;
@@ -43,6 +49,7 @@
     color: rgba(0, 0, 0, 1);
     margin-top: 4px;
 }
+
 
 .nombres {
     display: inline-block;
