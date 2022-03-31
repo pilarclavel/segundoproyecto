@@ -86,7 +86,7 @@ li {
     align-content: center;
 }
 .menu_underline:hover{
-text-decoration: underline;
+
 border-bottom: 3px solid #F3A124;
 }
 
@@ -106,7 +106,11 @@ border-bottom: 3px solid #F3A124;
     text-transform: none;
     color: rgba(0, 0, 0, 1);
     margin-top: 4px;
+    border-bottom: 3px solid transparent;
 }
+
+
+
 
 
 .nombres {
@@ -137,7 +141,7 @@ hr {
 }
 
 
-.gri_container {
+.grid_container {
    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -151,7 +155,18 @@ hr {
     .grid_item_1colum{ grid-area: 2 / 1 / 3 / 2; }
     .grid_item_2colum{ grid-area: 2 / 2 / 3 / 3; }
 
-  
+  .container{
+      display: flex;
+        width: 100%;  
+  }
+
+  .container__item{
+    display: flex;
+    flex: 0 0 50%;
+    padding: 24px;
+    align-items: center;
+    justify-content: center
+  }
 
     .accordion { /* Style the buttons that are used to open and close the accordion panel */
         background-color: #eee;
