@@ -440,17 +440,14 @@ background-image: url('/img/alo.JPG');
  
 
 .titulo_coleccion h1{
-    
         font-family: 'Jost';
         font-weight: bold;
         font-size: 38px;
-        
-        margin-left: 5em;
+         margin-left: 5em;
         padding-left: 10px;
     
 }
 .titulo_coleccion h2{
-    
     font-family: 'Jost';
     font-weight: bold;
     font-size: 38px;
