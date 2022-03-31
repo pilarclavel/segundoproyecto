@@ -98,7 +98,9 @@ border-bottom: 3px solid #F3A124;
     text-align: center;
 }
 
-
+.article{
+    width: auto;
+}
 .menu a {
     text-decoration: none;
     text-transform: none;
@@ -135,12 +137,13 @@ hr {
 }
 
 
-.grid_container {
-    display: grid;
+.gri_container {
+   display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 17px;
     grid-row-gap: 17px;
+
     }
     
     .grid_item_1colum { grid-area: 1 / 1 / 2 / 2; }
@@ -191,6 +194,11 @@ background-image: url('/img/alo.JPG');
     height: 300px;
     
     }
+
+    .cabecera_comun{
+        background-color: #F3A124;
+    }
+
     .cabecera_sobre_subber{
         background-repeat: no-repeat;
         background-image: url(/img/alo.JPG);
@@ -328,4 +336,46 @@ background-image: url('/img/alo.JPG');
         clear: both;
     }
 
+  .foto_grid{
+      background-image: url(/img/alo.JPG);
+  }
+
+
+
+
+  /*PRUEBA*/
+  .tienda_container{
+     
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 2048px;
+      width: 80%;
+      
+  }
+
+  .grid__cell{
+      padding: 16px;
+      margin: 2px;
+  }
+
+  .grid__cell--50{
+      -webkit-box-flex: 0;
+      -ms-flex:0 0 calc(50% - 16px);
+      flex: 0 0 calc(50% - 16px);
+  }
   
+  .grid__cell--25{
+    -webkit-box-flex: 0;
+    -ms-flex:0 0 calc(25% - 16px);
+    flex: 0 0 calc(27% - 16px);
+}
+
+.grid__cell--75{
+    -webkit-box-flex: 0;
+    -ms-flex:0 0 calc(75% - 16px);
+    flex: 0 0 calc(75% - 16px);
+}
+  /*ACABA PRUEBA*/
