@@ -520,7 +520,12 @@ li {
 
 /*ACABA FAQS*/
 
-
+/*AVISO LEGAL*/
+.texto_privacidad {
+    padding: 4px 15em 6em 15em;
+    font-family: 'Jost';
+    font-weight: bold;
+}
 
 
 
