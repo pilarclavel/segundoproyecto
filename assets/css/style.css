@@ -1,20 +1,8 @@
 
 /*MENU*/
-.menuBar {
-    display: inline-flex;
-    align-items: center;
-}
-
-.menuBar img {
-    width: 100px;
-    height: 42%;
-    margin: 10px;
-}
-
 ol {
     display: inline-flex;
-    flex-wrap: wrap;
-    list-style-type: none;
+    flex-wrap: inherit;
     width: 100%;
     align-content: center;
     justify-content: center;
@@ -42,8 +30,9 @@ li {
     list-style-type: none;
     padding-bottom: 5px;
 }
-.iconos{
-    color:#F3A124;
+
+.iconos {
+    color: #F3A124;
     padding-right: 11px;
 }
 
@@ -51,56 +40,17 @@ li {
 
 .navbar {
     display: inline-flex;
-    border-bottom: 1px solid #000000; 
+    border-bottom: 1px solid #000000;
 }
 
 .navbar-logo {
     display: inline-flex;
     align-items: center;
+    width: 25%;
+    padding-left: 18px;
 }
 
-.menuheader {
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-}
 
-.container {
-    display: inline-block;
-    width: 100%;
-}
-
-.menu {
-    color: rgba(0, 0, 0, 1);
-    position: inherit;
-
-    font-family: 'Jost', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    opacity: 1;
-    text-align: center;
-    display: inline-flex;
-    padding-right: 55px;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-}
-.menu_underline:hover{
-
-border-bottom: 3px solid #F3A124;
-}
-
-.menu_underline{
-    font-family: 'Jost', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    opacity: 1;
-    text-align: center;
-}
-
-.article{
-    width: auto;
-}
 .menu a {
     text-decoration: none;
     text-transform: none;
@@ -109,36 +59,72 @@ border-bottom: 3px solid #F3A124;
     border-bottom: 3px solid transparent;
 }
 
-
-
-
-
-.nombres {
-    display: inline-block;
-    padding-right: 10em;
-    padding-left: 12em;
+.barra_menu {
+    width: 100%;
+    text-align: center;;
 }
 
+.menu {
+    color: rgba(0, 0, 0, 1);
+    position: inherit;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.menu_underline:hover {
+  
+    border-bottom: 3px solid #F3A124;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+}
+
+.menu_underline {
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+
+}
+
+
+.menu_underline a {
+    text-decoration: none;
+    text-transform: none;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 4px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
 .carrito {
-    width: 27px;
+    width: 25%;
     opacity: 1;
     overflow: hidden;
     display: inline-flex;
-    align-content: center;
     align-items: center;
-    justify-content: center;
-
+    justify-content: end;
+    padding-right: 2em;
 }
 
 
 .carrito img {
     width: 100%;
 }
+/*ACABA MENU*/
 
-hr {
-    height: 1px;
-    background-color: red;
-}
+
+
 
 
 .grid_container {
