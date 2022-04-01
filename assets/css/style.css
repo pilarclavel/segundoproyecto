@@ -1,5 +1,4 @@
-
-/*MENU*/
+/*1.MENU*/
 ol {
     display: inline-flex;
     flex-wrap: inherit;
@@ -88,7 +87,6 @@ li {
     font-size: 20px;
     opacity: 1;
     text-align: center;
-
 }
 
 .menu_underline a {
@@ -526,7 +524,13 @@ li {
     font-family: 'Jost';
     font-weight: bold;
 }
+/*ACABA AVISO LEGAL*/
 
+
+/*CARRITO*/
+
+
+/*ACABA CARRITO*/
 
 
 
