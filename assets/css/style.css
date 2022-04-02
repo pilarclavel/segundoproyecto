@@ -678,8 +678,7 @@ li {
 .texto_cabeceras {
     font-family: 'Jost';
     font-weight: bold;
-    margin-left: 6em;
-    padding-left: 5em;
+    padding: 4px 15em 6em 15em;
 }
 
 .texto_cabeceras h2 {
