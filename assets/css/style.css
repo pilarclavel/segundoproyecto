@@ -248,6 +248,7 @@ ul.slider li:target {
     background-color: black;
     color: white;
     font-family: 'Jost', sans-serif;
+    cursor: pointer;
 }
 
 .works-grid {
@@ -673,7 +674,7 @@ ul.slider li:target {
 
 .artist-product1 {
     grid-area: 1 / 1 / 2 / 3;
-    padding: 15px 145px 45px 145px;
+    padding: 15px 68px 45px 94px;
 }
 
 .artist {
@@ -683,10 +684,13 @@ ul.slider li:target {
 }
 
 .marcapag {
-    width: 95px;
-    height: 253px;
-    padding: 0px 0 4em 18em;
-}
+    
+        width: 95px;
+        height: 253px;
+        margin: 0 0 4em 18em;
+        border-radius: 2em 2em 2em 2em;
+    }
+
 
 .artist-product1 h3 {
     font-family: 'Jost', sans-serif;
@@ -939,6 +943,15 @@ img~a {
 /*ACABA DETALLE PRODUCTO ARTISTA*/
 
 /*9.SORTEO*/
+.sort-bot{
+    text-align: center;
+    padding: 1em 0em 6em;
+}
+.prod-sort{    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    
+}
 /*ACABA SORTEO*/
 
 
