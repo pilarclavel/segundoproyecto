@@ -255,7 +255,9 @@ ul.slider li:target {
     cursor: pointer;
     margin-bottom: 2em;
 }
-
+.sobre_subber{
+    padding-top: 4em;
+}
 .works-grid {
     list-style: none;
     padding: 0;
@@ -968,10 +970,12 @@ img~a {
     text-align: center;
     padding-bottom: 4em;
 }
+
 .prod-sort{
     display: inline-flex;
     width: 100%;
     justify-content: space-evenly;
+    padding: 0em 0em 8em;
 }
 .tit-sort {
     font-family: 'Jost';
@@ -1008,7 +1012,7 @@ img~a {
 
 .cabecera_sobre_subber {
     background-repeat: no-repeat;
-    background-image: url(/img/alo.JPG);
+    background-image: url(/img/1.landing/cuadr.png);
     height: 400px;
     background-size: cover;
 }
@@ -1036,6 +1040,7 @@ img~a {
     border-left: 4px solid orange;
     margin-left: 5em;
     padding-left: 10px;
+    margin-top: 2em;
 }
 
 .equiposubber {
@@ -1050,7 +1055,7 @@ img~a {
 }
 
 .fotos_individuales {
-    padding-left: 85px;
+    padding: 0em 2em;
 }
 
 .nombres_equipo {
@@ -1060,6 +1065,7 @@ img~a {
 .algo {
     text-align: center;
     padding-bottom: 5em;
+   
 }
 
 .cont {
@@ -1067,6 +1073,7 @@ img~a {
     font-family: 'Jost';
     background-color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .row {
@@ -1393,13 +1400,7 @@ img~a {
     background-color: #F3A124;
 }
 
-.cabecera_sobre_subber {
-    background-repeat: no-repeat;
-    background-image: url(/img/alo.JPG);
-    width: 100%;
-    height: 400px;
-    background-size: cover;
-}
+
 
 
 .row {
