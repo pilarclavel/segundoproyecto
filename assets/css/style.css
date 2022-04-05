@@ -945,13 +945,26 @@ img~a {
 /*9.SORTEO*/
 .sort-bot{
     text-align: center;
-    padding: 1em 0em 6em;
+    padding-bottom: 4em;
 }
-.prod-sort{    display: inline-flex;
+.prod-sort{
+    display: inline-flex;
     width: 100%;
-    justify-content: center;
-    
+    justify-content: space-evenly;
 }
+.tit-sort {
+    font-family: 'Jost';
+    font-size: 2em;
+    color: #F3A124;
+    padding: 1em 0em 1em 2em;
+}
+.arriba-cuadricula{
+    font-family: 'Jost';
+    text-align: center;
+    padding: 2em 0em;
+    font-size: 2em;
+}
+
 /*ACABA SORTEO*/
 
 
