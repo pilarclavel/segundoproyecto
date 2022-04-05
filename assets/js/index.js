@@ -79,6 +79,22 @@ window.onload = function(){
       event.preventDefault();
     });
   } 
+  
+  var susbtn = document.querySelector("#añadir_text")
+  if (susbtn){
+    susbtn.addEventListener("click", function(event) {
+      var texto = document.getElementById("añadir_text")
+      if (texto.value == ""){
+
+        document.getElementById("añadir").style.display = "block"
+        document.getElementById("añadir").innerHTML = "Producto agregado correctamente"
+    
+    
+      }
+      
+      event.preventDefault();
+    });
+  } 
   var envbtn = document.querySelector("#enviar_boton")
   if (envbtn){
     envbtn.addEventListener("click", function(event) {
