@@ -179,7 +179,7 @@ li {
 
 /*3.LANDING*/
 .banner-landing {
-    background-image: url('/img/alo.JPG');
+    background-image: url('/img/1.landing/cuadr.png');
     width: 100%;
     height: 545px;
     background-repeat: no-repeat;
@@ -188,7 +188,7 @@ li {
 
 .banner-landing h3 {
     text-align: center;
-    padding-top: 4em;
+    padding-top: 5em;
     color: white;
     font-family: 'Jost', sans-serif;
     font-size: 3em;
@@ -199,7 +199,8 @@ ul.slider {
     position: relative;
 
     height: 280px;
-    padding-bottom: 3em;
+    padding-bottom: 9em;
+    margin: 5em 0em;
 
 }
 
@@ -217,10 +218,10 @@ ul.slider li {
 
 ul.slider li img {
 
-    width: 23%;
-    height: 278px;
-    object-fit: cover;
-    padding: 0em 4em;
+    margin: 0em 5em 0em;
+    width: 148px;
+    height: 392px;
+    border-radius: 2em;
 }
 
 ul.slider li:first-child {
@@ -238,7 +239,10 @@ ul.slider li:target {
     text-align: center;
     padding-bottom: 4em;
 }
-
+.texto-landing h3{
+    font-size: 2.2em;
+    padding-top: 1em;
+}
 .texto-landing p {
     padding: 1em 21em;
 }
@@ -249,6 +253,7 @@ ul.slider li:target {
     color: white;
     font-family: 'Jost', sans-serif;
     cursor: pointer;
+    margin-bottom: 2em;
 }
 
 .works-grid {
