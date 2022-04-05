@@ -710,10 +710,11 @@ ul.slider li:target {
 
 .mainProduct {
     grid-area: 1 / 1 / 2 / 3;
-
+margin-left: 2em;
     display: flex;
     width: 70%;
     background-size: cover;
+    margin: 3em 12em;
 }
 
 .mainProduct2 {
@@ -733,8 +734,11 @@ ul.slider li:target {
 }
 
 .mainProduct>img {
-    padding: 10px;
-    width: 500px;
+    
+    width: 146px;
+    height: 379px;
+    border-radius: 2em;
+    margin-left: 2em;
 }
 
 .productDescr {
@@ -754,8 +758,9 @@ ul.slider li:target {
 }
 
 .imgList {
-    width: 100%;
-    padding: 0em 4em;
+    height: 146px;
+    width: 192px;
+    margin-left: 1em
 }
 
 .buy {
@@ -844,13 +849,13 @@ img~a {
 
 .minifotos {
     display: inline-flex;
-    width: 76%;
+    margin-left: 4em;
 
 }
 
 .minifotos a {
     display: inline-flex;
-    padding: 0em 1em;
+
 }
 
 .havana {
@@ -859,7 +864,7 @@ img~a {
 }
 
 .havana img {
-    width: 1400px;
+    width: 100%;
     height: 601px;
 }
 
@@ -881,9 +886,8 @@ img~a {
 .relacionados img {
     width: 105px;
     height: 280px;
-    padding: 0em 6em;
-    border-radius: 5em;
-
+    margin: 0em 6em;
+    border-radius: 2em;
 }
 
 .relacionados {
@@ -902,7 +906,7 @@ img~a {
     border-style: solid;
     border-width: 17px;
     font-family: Arial, sans-serif;
-    font-size: 18px;
+    font-size: 13px;
     overflow: hidden;
     padding: 2px 44px;
     word-break: normal;
