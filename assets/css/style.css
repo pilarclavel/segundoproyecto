@@ -1317,8 +1317,31 @@ img~a {
 
 
 /*CARRITO*/
-
-
+.container{
+    font-family: 'Jost';
+}
+.table, .table-striped, .table-border, .checkout-table{
+    width: 100%;
+}
+.table th{
+    padding: 0em 2em;
+}
+.car td{
+    padding: 0em 2em;
+}
+.btn, .btn-round, .btn-g,.form-control{
+    width: 50%;
+}
+.hidden-xs img{
+    width: 50px;
+    height: 50px;
+}
+.table tbody{
+    text-align: left;
+}
+.shop-Cart-totalbox{
+    padding: 0em 0em 3em;
+}
 /*ACABA CARRITO*/
 
 
