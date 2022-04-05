@@ -652,6 +652,34 @@ ul.slider li:target {
     width: 242px;
     height: 274px;
 }
+@media screen and (max-width:1339px) {.fotos-colab {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 6em 8em 6em 8em;
+}
+
+.fotos-colab1 {
+
+    width: 100%;
+}
+
+.fotos-colab2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.fotos-colab1 img {
+    width: 487px;
+    height: 565px;
+}
+
+.fotos-colab2 img {
+    width: 242px;
+    height: 274px;
+}
+    
+}
 
 .artist-product {
     display: grid;
@@ -683,8 +711,8 @@ ul.slider li:target {
 
 .artist-product1 h3 {
     font-family: 'Jost', sans-serif;
-    padding: 2em 0 0em 1em;
-    font-size: 2em;
+    padding: 0em 0 0em 1em;
+    font-size: 2.2em;
 }
 
 /*ACABA COLABOBRACIONES*/
