@@ -1192,7 +1192,7 @@ img~a {
 
 .formulario {
     font-family: 'Jost';
-    padding: 70px 0px 0px 100px;
+    padding: 70px 0px 10px 100px;
 }
 
 .col-5 {
@@ -1271,7 +1271,7 @@ img~a {
 }
 
 .preguntas_frecuentes {
-    padding: 4em 9em;
+    padding: 0em 9em;
 }
 
 .accordion {
