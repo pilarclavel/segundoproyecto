@@ -437,7 +437,7 @@ ul.slider li:target {
 
 .shop-item-title {
     font-weight: 400;
-    font-size: 17px;
+    font-size: 14px;
     color: #111;
     margin: 15px 0 5px;
     font-family: 'Jost', sans-serif;
@@ -445,7 +445,7 @@ ul.slider li:target {
 
 .shop-item-title a {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 17px;
     color: #111;
     font-weight: bold;
 }
