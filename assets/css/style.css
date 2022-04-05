@@ -1329,8 +1329,9 @@ img~a {
 .car td{
     padding: 0em 2em;
 }
-.btn, .btn-round, .btn-g,.form-control{
-    width: 50%;
+.btn, .btn-round, .btn-g{
+    width: 30%;
+    margin-left: auto;
 }
 .hidden-xs img{
     width: 50px;
@@ -1341,6 +1342,11 @@ img~a {
 }
 .shop-Cart-totalbox{
     padding: 0em 0em 3em;
+}
+
+    .form-control {
+        margin-left: auto;
+        width: 29%;
 }
 /*ACABA CARRITO*/
 

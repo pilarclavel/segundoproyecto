@@ -1,18 +1,20 @@
 window.onload = function(){
   var acc = document.getElementsByClassName("accordion");
   var i;
-  
-  for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var panel = this.nextElementSibling;
-      if (panel.style.display === "block") {
-        panel.style.display = "none";
-      } else {
-        panel.style.display = "block";
-      }
-    });
+  if(acc){
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
   }
+  
   
   //===
   // VARIABLES
@@ -44,7 +46,6 @@ window.onload = function(){
     const REMAINING_HOURS = Math.floor((DURATION % MILLISECONDS_OF_A_DAY) / MILLISECONDS_OF_A_HOUR);
     const REMAINING_MINUTES = Math.floor((DURATION % MILLISECONDS_OF_A_HOUR) / MILLISECONDS_OF_A_MINUTE);
     const REMAINING_SECONDS = Math.floor((DURATION % MILLISECONDS_OF_A_MINUTE) / MILLISECONDS_OF_A_SECOND);
-    // Thanks Pablo Monteserín (https://pablomonteserin.com/cuenta-regresiva/)
     
     // Render
     SPAN_DAYS.textContent = REMAINING_DAYS;
@@ -56,37 +57,46 @@ window.onload = function(){
   //===
   // INIT
   //===
-  updateCountdown();
-  // Refresh every second
-  setInterval(updateCountdown, MILLISECONDS_OF_A_SECOND);
+  if (SPAN_DAYS){
+    updateCountdown();
+    // Refresh every second
+    setInterval(updateCountdown, MILLISECONDS_OF_A_SECOND);
+  }
+ 
 
-  document.querySelector("#suscribirse_button").addEventListener("click", function(event) {
-    var texto = document.getElementById("suscribirse_text")
-    if (texto.value == ""){
-      document.getElementById("suscribirse_exito").style.display = "block"
-      document.getElementById("suscribirse_exito").innerHTML = "El email es obligatorio"
-    }else{
-      document.getElementById("suscribirse_exito").style.display = "block"
-      document.getElementById("suscribirse_exito").innerHTML = "Te has sucrito correctamente"
-    }
-    
-    event.preventDefault();
-  }); 
-  document.querySelector("#enviar_boton").addEventListener("click", function(event) {
-    var ayuda = document.getElementById("ayuda")
-    var email = document.getElementById("Email")
-    var nombre = document.getElementById("Nombre")
-    if (ayuda.value != "" && email.value != "" && nombre.value != ""){
-      document.getElementById("ayuda").value = ""
-      document.getElementById("Email").value = ""
-      document.getElementById("Nombre").value = ""
-      document.getElementById("contacto_texto").innerHTML = "Mensaje enviado correctamente"
-      document.getElementById("contacto_texto").style.display = "block"
-    }else{
-      document.getElementById("contacto_texto").innerHTML = "Los campos son obligatirios"
-      document.getElementById("contacto_texto").style.display = "block"
-    }
-    event.preventDefault();
-  });
+  var susbtn = document.querySelector("#suscribirse_button")
+  if (susbtn){
+    susbtn.addEventListener("click", function(event) {
+      var texto = document.getElementById("suscribirse_text")
+      if (texto.value == ""){
+        document.getElementById("suscribirse_exito").style.display = "block"
+        document.getElementById("suscribirse_exito").innerHTML = "El email es obligatorio"
+      }else{
+        document.getElementById("suscribirse_exito").style.display = "block"
+        document.getElementById("suscribirse_exito").innerHTML = "Te has sucrito correctamente"
+      }
+      
+      event.preventDefault();
+    });
+  } 
+  var envbtn = document.querySelector("#enviar_boton")
+  if (envbtn){
+    envbtn.addEventListener("click", function(event) {
+      var ayuda = document.getElementById("ayuda")
+      var email = document.getElementById("Email")
+      var nombre = document.getElementById("Nombre")
+      if (ayuda.value != "" && email.value != "" && nombre.value != ""){
+        document.getElementById("ayuda").value = ""
+        document.getElementById("Email").value = ""
+        document.getElementById("Nombre").value = ""
+        document.getElementById("contacto_texto").innerHTML = "Mensaje enviado correctamente"
+        document.getElementById("contacto_texto").style.display = "block"
+      }else{
+        document.getElementById("contacto_texto").innerHTML = "Los campos son obligatirios"
+        document.getElementById("contacto_texto").style.display = "block"
+      }
+      event.preventDefault();
+    });
+  }
 };
 
