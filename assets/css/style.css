@@ -257,7 +257,16 @@ ul.slider li:target {
     cursor: pointer;
     margin-bottom: 2em;
 }
-
+.conocens{
+    
+        padding: 1em 3em;
+        background-color: black;
+        color: white;
+        font-family: 'Jost', sans-serif;
+        cursor: pointer;
+        margin: 0em 0em 6em 43em;
+    
+}
 .sobre_subber {
     padding-top: 4em;
 }
@@ -360,11 +369,11 @@ ul.slider li:target {
 .land {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 46px;
+    grid-row-gap: 9px;
     font-family: 'Jost';
-    padding: 6em 0em 3em 0em;
+    padding: 6em 4em 4em 0em;
 }
 
 .landi1 {
@@ -1410,7 +1419,15 @@ img~a {
 .car td {
     padding: 0em 2em;
 }
-
+.btn.btn-round {
+   
+    border-radius: 2px;
+    background-color: orange;
+    font-family: 'Jost';
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+}
 .btn,
 .btn-round,
 .btn-g {
@@ -1768,7 +1785,7 @@ img~a {
         width: 34%;
         height: 278px;
         object-fit: cover;
-        padding: 0em 4em;
+        padding: 0em;
     }
 
     .nuestr {
@@ -2168,10 +2185,41 @@ img~a {
                     margin-bottom: 3em;}
                 
         
-            }
+            
 
 .preguntas_frecuentes {
-    padding: 4em 4em;
+    padding: 4em 4em;}
+
+    .texto_privacidad {
+        padding: 4px 3em 6em 3em;
+        font-family: 'Jost';
+        font-weight: bold;
+    }
+
+
+
+    .col-sm-12,.col-sm-5{
+        padding: 0;
+    }
+    .table{
+        width: 100%;
+        padding-bottom: 1em;}
+       
+        .land {
+           
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-column-gap: 46px;
+            grid-row-gap: 9px;
+            font-family: 'Jost';
+            padding: 0;}
+            .conocens {
+                padding: 1em 3em;
+                background-color: black;
+                color: white;
+                font-family: 'Jost', sans-serif;
+                margin: 4em 0em 5em 8em;}
+            
 }
 
     
