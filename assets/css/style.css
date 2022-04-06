@@ -1884,23 +1884,29 @@ img~a {
 
     .products {
         display: flex;
-        width: 100%;
-        flex-direction: column;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
     }
 
     .mainProduct {
-        grid-area: 1 / 1 / 2 / 3;
-        display: flex;
+        display: inline-flex;
         width: 100%;
         background-size: cover;
         flex-direction: column;
+        align-items: center;
     }
 
     .mainProduct>img {
         padding: 0;
-        width: 100%;
+        width: 60%;
+        margin: 1em 0em;;
+        
     }
-
+    .minifotos a {
+        display: inline-flex;
+        flex-direction: column;}
+.talla{margin: 12px 0px;}
 
     .imgList {
         width: 100%;
@@ -1909,7 +1915,9 @@ img~a {
 
     .minifotos {
         display: inline-flex;
-        width: 100%;
+        width: 150px;
+        flex-direction: column;
+        margin:0;
     }
 
     .productDescr {
