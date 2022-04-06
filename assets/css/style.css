@@ -1043,7 +1043,14 @@ img~a {
     justify-content: space-evenly;
     padding: 0em 0em 8em;
 }
-
+.cuent{
+    text-align: center;
+    border: 4px solid black;
+    margin: 0em 9em 3em;
+    font-size: 2em;
+    font-family: 'Jost';
+    text-transform: uppercase;
+}
 .tit-sort {
     font-family: 'Jost';
     font-size: 2em;
@@ -2011,12 +2018,14 @@ img~a {
         grid-template-rows: 1fr;
         grid-column-gap: 7px;
         grid-row-gap: 25px;
+        flex-direction: row;
 
         align-items: center;
     }
 
     .artist-product1 {
         padding: 0;
+        width: 100%;
     }
 
 
@@ -2025,18 +2034,20 @@ img~a {
         padding: 0;
         font-size: 1.5em;
         text-align: center;
+
     }
 
     .marcapag {
-        width: 95px;
-        height: 253px;
-        padding: 0px 0 0em 18em;
+        width: 69px;
+        height: 203px;
+        padding: 0;
+        margin: 0;
     }
 
     .artist {
-        width: 258px;
-        height: 174px;
-        padding: 2em 0em;
+        width: 60%;
+        height: 192px;
+        padding:0em 4em 0em 0em;
     }
 
     .fotos-colab2 img,
@@ -2053,7 +2064,35 @@ img~a {
             display: inline-flex;
             padding: 1em 1em;}
 
+         .cuent{
+            text-align: center;
+            border: 4px solid black;
+            margin: 0em 0em 4em;
+            font-size: 1em;
+            font-family: 'Jost';
+            text-transform: uppercase;
+        }
+
+.prod-sort{
+    flex-direction: column;
+    align-items: center;
+}
+
+.equiposubber {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.equipo_subber h2 {
+    margin-left: 2em;
+}
+.grid_container {
+    display: inline;}
+    
 
 
 
-    }
+         }
+
+
+    
