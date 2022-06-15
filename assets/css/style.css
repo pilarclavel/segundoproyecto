@@ -179,7 +179,7 @@ li {
 
 /*3.LANDING*/
 .banner-landing {
-    background-image: url('./img/1.landing/cuadr.png');
+    background-image: url('../img/1.landing/cuadr.png');
     width: 100%;
     height: 545px;
     background-repeat: no-repeat;
@@ -811,7 +811,7 @@ ul.slider li:target {
 .mainProduct2 {
     grid-area: 1 / 1 / 2 / 3;
     justify-self: end;
-    background-image: url('./img/alo.JPG');
+    background-image: url('../img/alo.JPG');
     width: 100%;
     background-size: cover;
 }
@@ -819,7 +819,7 @@ ul.slider li:target {
 .mainProduct3 {
     grid-area: 1 / 1 / 2 / 3;
     justify-self: end;
-    background-image: url('./img/alo.JPG');
+    background-image: url('../img/alo.JPG');
     width: 100%;
     background-size: cover;
 }
@@ -1089,14 +1089,14 @@ img~a {
     background-size: cover;
     margin: 0 auto;
     background-repeat: no-repeat;
-    background-image: url('./img/alo.JPG');
+    background-image: url('../img/alo.JPG');
     width: 100%;
     height: 300px;
 }
 
 .cabecera_sobre_subber {
     background-repeat: no-repeat;
-    background-image: url(./img/1.landing/cuadr.png);
+    background-image: url(../img/1.landing/cuadr.png);
     height: 400px;
     background-size: cover;
 }
@@ -1329,7 +1329,7 @@ img~a {
 
 .semi_footer_contacto {
     background-repeat: no-repeat;
-    background-image: url(./img/alo.jpg);
+    background-image: url(../img/alo.jpg);
     height: 400px;
     background-size: cover;
     width: 100%;
@@ -1349,7 +1349,7 @@ img~a {
     background-size: cover;
     margin: 0 auto;
     background-repeat: no-repeat;
-    background-image: url('./img/1.landing/cuadr.png');
+    background-image: url('../img/1.landing/cuadr.png');
     width: 100%;
     height: 400px;
 }
@@ -1527,7 +1527,7 @@ img~a {
     background-size: cover;
     margin: 0 auto;
     background-repeat: no-repeat;
-    background-image: url('./img/alo.JPG');
+    background-image: url('../img/alo.JPG');
     width: 100%;
     height: 300px;
 
@@ -2180,7 +2180,7 @@ img~a {
                 width: 323px;}
                 .semi_footer_contacto {
                     background-repeat: no-repeat;
-                    background-image: url(./img/alo.jpg);
+                    background-image: url(../img/alo.jpg);
                     height: 400px;
                     background-size: cover;
                     width: 100%;
